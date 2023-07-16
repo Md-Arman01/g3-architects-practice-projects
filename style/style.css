@@ -261,12 +261,9 @@ h3 {
         width: 50%;
         margin: 10px auto;
     }
-    .card, {
-        margin-bottom: 10px;
-    }
-
     .cards-container {
         padding-left: 60px;
+        gap: 10px;
     }
 
     .group-container {
