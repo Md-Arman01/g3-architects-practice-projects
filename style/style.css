@@ -106,11 +106,59 @@ header {
     font-weight: 700;
 }
 
+/* Love and enjoy section */
 
+.love-section-container {
+    display: flex;
+    gap: 30px;
+    padding: 0 230px;
+}
 
+.text-box {
+    padding: 25px 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
 
+h3 {
+    color: #131313;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
+.left-border h1 {
+    border-left: 3px solid #FF900E;
+    padding-left: 20px;
+}
+.architect-img{
+    width: 92%;
+    padding-left: 60px;
+}
+.btn-experience{
+    border: 0;
+    border-radius: 5px;
+    background: #FF900E;
+    padding: 14px 22px;
+    padding: 30px 35px;
+    position: relative;
+    top: -70px;
+    /* margin-top: -90px; */
+}
+.btn-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
+.btn-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 
@@ -122,6 +170,7 @@ header {
 
 
 @media screen and (max-width:576px) {
+
     header,
     .feature-container {
         padding: 20px;
@@ -136,8 +185,9 @@ header {
         width: auto;
 
     }
-    .group-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .group-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
@@ -151,6 +201,7 @@ header {
     header {
         padding: 30px;
     }
+
     .feature-container {
         flex-direction: column;
     }
