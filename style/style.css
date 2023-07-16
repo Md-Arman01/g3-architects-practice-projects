@@ -203,19 +203,27 @@ h3 {
     header,
     .feature-container,
     .love-section-container,
-    .architect-img {
+    .architect-img,
+    .some-fact-container {
         padding: 20px;
     }
 
     .nav-container,
     .feature-container,
-    .love-section-container {
+    .love-section-container,
+    .cards-container {
         flex-direction: column;
     }
 
     .banner-content {
         width: auto;
 
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+    .cards-container{
+        padding-left: 60px;
     }
 
     .group-container {
@@ -231,7 +239,8 @@ h3 {
 @media screen and (min-width:577px) and (max-width:992px) {
 
     header,
-    .love-section-container {
+    .love-section-container,
+    .some-fact-container {
         padding: 30px;
     }
 
@@ -239,5 +248,7 @@ h3 {
     .love-section-container {
         flex-direction: column;
     }
-
+    .cards-container{
+        gap: 5px;
+    }
 }
