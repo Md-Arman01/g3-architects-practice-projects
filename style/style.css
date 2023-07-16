@@ -201,7 +201,7 @@ h3 {
 /* footer section */
 
 .footer-section {
-    height: 500px;
+    /* height: 500px; */
     padding: 0 230px;
     text-align: center;
 }
@@ -217,6 +217,7 @@ h3 {
     border-radius: 5px;
     padding: 25px 100px;
     margin-top: 80px;
+    margin-bottom: 150px;
 }
 
 .footer-end h5 {
@@ -238,23 +239,29 @@ h3 {
     .feature-container,
     .love-section-container,
     .architect-img,
-    .some-fact-container {
+    .some-fact-container,
+    .footer-section,
+    .sponsors-container,
+    .footer-end {
         padding: 20px;
     }
 
     .nav-container,
     .feature-container,
     .love-section-container,
-    .cards-container {
+    .cards-container,
+    .sponsors-container {
         flex-direction: column;
     }
 
     .banner-content {
         width: auto;
-
     }
-
-    .card {
+    .sponsors-img{
+        width: 50%;
+        margin: 10px auto;
+    }
+    .card, {
         margin-bottom: 10px;
     }
 
@@ -276,15 +283,21 @@ h3 {
 
     header,
     .love-section-container,
-    .some-fact-container {
+    .some-fact-container,
+    .footer-section,
+    .sponsors-container {
         padding: 30px;
     }
 
     .feature-container,
-    .love-section-container {
+    .love-section-container,
+    .sponsors-container {
         flex-direction: column;
     }
-
+    .sponsors-img{
+        width: 30%;
+        margin: 15px auto;
+    }
     .cards-container {
         gap: 5px;
     }
